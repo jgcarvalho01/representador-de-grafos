@@ -30,15 +30,26 @@ Para modificar o grafo que deseja gerar, abra o arquivo "input.txt" e insira as 
 
 Exemplo:
 
-1 2
-2 3
-3 4
-4 5
-
+1 2  
+2 3  
+3 4  
+4 5  
 
 Isso irá gerar um grafo com 5 nós e as seguintes conexões: 1-2, 2-3, 3-4, 4-5.
 
-Você pode utilizar a quebra de linha se quiser inserir outro grafo.
+Para inserir um outro grafo no mesmo aquivo você pode utilizar a quebra de linha duas vezes e insira os números em seguida.
+
+Exemplo:
+
+1 2  
+2 3  
+
+3 4  
+4 5  
+
+6 7  
+7 8  
+8 6  
 
 Após editar o arquivo "input.txt", execute o código novamente para ver as mudanças no desenho do grafo.
 
